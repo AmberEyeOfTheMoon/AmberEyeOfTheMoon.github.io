@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Интернет магазин</title>
+	<meta name="viewport" content="width=device-width, initial-scale=2">
+	<link rel="stylesheet" href="style.css">
+<script language="javascript" src="java.js"></script>	
+</head>
+<body>
+	<h1>Интернет магазин "Bumerchi"</h1>
+	<table border="0" id="tbl">
+		<tr>
+		
+			<td>
+				Наименование:
+			</td>
+			<td>
+				Цена за единицу:
+			</td>
+			<td>
+				Количество:
+			</td>
+			<td>
+				Стоимость:
+			</td>
+		</tr>
+		<tr id="r1">
+			<td>
+				Колготки
+			</td>
+			<td>
+				120 руб
+			</td>
+			<td>
+				<input type="number" id="kol1" value="0">штук
+			</td>
+			<td>			
+				<input type="number" id="kol2" readonly>руб
+			</td>
+		</tr>
+		<tr id="r2">
+			<td>
+			Носки
+			</td>
+			<td>
+			100 руб
+			</td>
+			<td>
+			<input type="number" id="nos1" value="0">штук
+			</td>				
+			<td>
+			<input type="number" id="nos2" readonly>руб
+			</td>
+		</tr>
+		<tr id="r3">
+			<td>
+			Футболка
+			</td>		
+			<td>
+			350 руб	
+			</td>
+			<td>
+			<input type="number" id="fut1" value="0">штук
+			</td>
+			<td>
+			<input type="number" id="fut2" readonly>руб
+			</td>
+		</tr>
+	</table>
+	<div id="vvod">
+	<button onClick="rasch();">Рассчитать</button>
+	<p>Всего:<input type="number" id="vsego" readonly>рублей<input type="number" id="cop" readonly>копеек</p>
+	<p>Ваша скидка составила:<input type="number" id="skid" readonly>%</p>
+	<button onClick="clean();">Очистить</button>
+	</div>
+
+</body>
+</html>

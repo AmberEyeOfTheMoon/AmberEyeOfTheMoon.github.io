@@ -1,0 +1,23 @@
+body{
+	font-family:verdana;
+	font-size:22px;
+    text-shadow: white 1px 1px 0, white -1px -1px 0, 
+                 white -1px 1px 0, white 1px -1px 0;
+	margin:auto;
+	background-image:url("1.png");
+}
+input{
+	line-height:20px;
+	width:50px;
+}
+h1{
+	margin-top:50px;
+	text-align:center;
+}
+table{
+	margin:auto;
+}
+#vvod{
+	text-align:center;
+	margin-top:16px;
+}
